@@ -92,7 +92,7 @@ function main(){
         }
     })
     // 定时调用
-    setTimeout(main,1000*60)
+    setTimeout(main,config.timeSpan)
 }
 main()
 
